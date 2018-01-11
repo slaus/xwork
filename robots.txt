@@ -1,2 +1,23 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
+Disallow: /php
+
+User-agent: Yandex
+Allow: /
+Disallow: /php
+
+Host:  https://xwork.site/
+
+User-agent: Googlebot
+Allow: /
+Allow: *.css
+Allow: *.js
+Disallow: /php
+
+Sitemap: https://xwork.site/sitemap.xml
+
+User-agent: Googlebot-Image
+Allow: /images
+ 
+User-agent: YandexImages
+Allow: /images
