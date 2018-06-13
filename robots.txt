@@ -1,10 +1,12 @@
 User-agent: *
 Allow: /
 Disallow: /php
+Disallow: /mymatto
 
 User-agent: Yandex
 Allow: /
 Disallow: /php
+Disallow: /mymatto
 
 Host:  https://xwork.site/
 
@@ -13,6 +15,8 @@ Allow: /
 Allow: *.css
 Allow: *.js
 Disallow: /php
+Disallow: /mymatto
+Disallow: /plast
 
 Sitemap: https://xwork.site/sitemap.xml
 
