@@ -9,12 +9,15 @@
     <meta name="description"
           content="XWork - creation and promotion of sites in Ukraine and Russia. SEO optimization, filling. Tel.: +380997116815">
     <meta name="author" content="XWork"/>
-    <title>XWork - создание и продвижение сайтов в Украине и России</title>
+    <title>XWork - creation and promotion of sites in Ukraine and Russia</title>
 
     <meta property="og:title" content="XWork - creation and promotion of sites in Ukraine and Russia"/>
-    <meta property="og:type" content="text/html"/>
-    <meta property="og:url" content="http://xwork.site"/>
-    <meta property="og:image" content="images/xwork.site.white.png"/>
+    <meta property="og:description" content="XWork - creation and promotion of sites in Ukraine and Russia. SEO optimization, filling. Tel.: +380997116815"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://xwork.site/"/>
+    <meta property="og:image" content="https://xwork.site/images/xwork.site.white.png"/>
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
 
     <link rel="shortcut icon" href="images/xwork.site.png">
     <link rel="apple-touch-icon" sizes="57x57" href="images/xwork.site.png">
@@ -24,7 +27,7 @@
     <link href="css/styles.css" rel="stylesheet" media="all">
     <link href="css/slick.css" rel="stylesheet" media="all">
     <link href="css/slick-theme.css" rel="stylesheet" media="all">
-
+    
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -46,8 +49,16 @@
         fbq('init', '384949058623813');
         fbq('track', 'PageView');
     </script>
-
     <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119399159-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119399159-1');
+</script>
 </head>
 
 <body data-ng-app="myPage" data-ng-controller="myPageCtrl">
@@ -66,13 +77,13 @@
 </div-->
 
 <!-- Page wrapper -->
-<div class="wrapper">
+<div itemscope itemtype="http://schema.org/Organization" class="wrapper">
 
     <!-- Header -->
     <header class="uk-small-hidden header">
         <nav class="uk-navbar header-nav">
             <div class="uk-container uk-container-center">
-                <a class="uk-navbar-brand logo_link" data-ng-click="scrollTop()" href="index-en.html">
+                <a class="uk-navbar-brand logo_link" data-ng-click="scrollTop()" href="index.html">
                     <img class="uk-responsive-height logo" src="images/xwork.site.white.png" alt="xwork.site">
                 </a>
                 <div class="uk-navbar-flip uk-visible-large">
@@ -112,12 +123,17 @@
                         </li>
                         <li class="header_nav_list_item">
                             <a class="link_contacts header_nav_list_item_link"
+                               href="index-ua.html"><img src="images/flag-ua.png" alt="Українська"></a>
+                        </li>
+                        <li class="header_nav_list_item">
+                            <a class="link_contacts header_nav_list_item_link"
                                href="index-ru.html"><img src="images/flag-ru.png" alt="Русский"></a>
                         </li>
                     </ul>
                 </div>
                 <div class="uk-navbar-flip uk-hidden-large header_navbar_mobile_block">
                     <div class="header_navbar_mobile flag">
+                        <a class="" href="index-ua.html"><img src="images/flag-ua.png" alt="Українська"></a>
                         <a class="" href="index-ru.html"><img src="images/flag-ru.png" alt="Русский"></a>
                     </div>
                     <div data-ng-click="toggleMobileNav($event)" class="uk-navbar-toggle header_navbar_mobile"></div>
@@ -133,14 +149,14 @@
 
             <div class="container_block">
                 <h1 class="uk-h1 container_subtitle"><img class="uk-responsive-height logo"
-                                                          src="images/xwork.site.white.png" alt="xwork.site"></h1>
+                                                          src="https://xwork.site/images/xwork.site.white.png" alt="xwork.site"></h1>
                 <h1 class="uk-h2 container_title">SITE DEVELOPMENT COMPANY AND SEO</h1>
-                <h1 class="uk-h2 container_subtitle">FROM THE XWORK.SITE</h1>
+                <h1 class="uk-h2 container_subtitle">FROM THE <span itemprop="name">XWORK.SITE</span></h1>
                 <div class="container_description">We solve difficult problems immediately. Impossible for a little
                     longer.
                 </div>
                 <div class="container_description">
-                    <h5 class="uk-h2 container_title">+38 (099) 711 6815, +38 (098) 295 4298</h5>
+                    <h5 class="uk-h2 container_title"><span itemprop="telephone">+38 (099) 7116815</span>, <span itemprop="telephone">+38 (098) 2954298</span>, <span itemprop="telephone">+7 (499) 4906609</span></h5>
                 </div>
                 <!-- BUTTONS -->
                 <div class="uk-position-relative uk-margin-large-bottom uk-width-1-1 container_button">
@@ -209,6 +225,7 @@
                         Millions of Internet users do not know anything about you unless you go beyond contact sales of
                         goods and services. In nowadays for sales or visibility of your brand you must develop own web
                         site.</p>
+                    <a class="uk-button uk-button-large button_custom_green uk-border-rounded uk-margin-top animated" href="files/brif-en.doc">Download Brief for Site creation</a>
                 </div>
             </div>
             <div class="uk-width-large-1-2 description_image" data-image="images/developer.jpg"></div>
@@ -225,6 +242,8 @@
                     <p class="animated description_text">Start working with a team of professionals. We own a perfect
                         tools for developing and promoting websites using the newest solutions and technologies. Our
                         advantage is an integrated approach in development. We can afford to guarantee your success!</p>
+                        <a class="uk-button uk-button-large button_custom_green uk-border-rounded uk-margin-top animated"
+                       href="https://xwork.site/seo/" target="_blank">Order Ads from a Google specialist</a>
                 </div>
             </div>
         </div>
@@ -242,8 +261,8 @@
                         workplace and technical support. You can order a complex of services and entrust work on your
                         project to professionals of various fields. We have qualified and proven specialists to realize
                         your ideas.</p>
-                    <a class="uk-button uk-button-large button_custom_green uk-border-rounded uk-margin-top animated"
-                       href="https://xwork.online/" target="_blank">Register for free</a>
+                    <!--a class="uk-button uk-button-large button_custom_green uk-border-rounded uk-margin-top animated"
+                       href="https://xwork.online/" target="_blank">Register for free</a-->
                 </div>
             </div>
             <div class="uk-width-large-1-2 description_image" data-image="images/freelance.jpg"></div>
@@ -346,7 +365,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Landing Page from</h4>
-                            <p class="price_block_cost">$49</p>
+                            <p class="price_block_cost">$299</p>
                         </div>
                         <div class="price_block_text">Landing</div>
                         <div class="price_block_text">Responsive design for your website</div>
@@ -371,7 +390,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Website from</h4>
-                            <p class="price_block_cost">$99</p>
+                            <p class="price_block_cost">$499</p>
                         </div>
                         <div class="price_block_text">Website on Wordpress</div>
                         <div class="price_block_text">One of 200 adaptive designs</div>
@@ -396,7 +415,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom best_price price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Online store from</h4>
-                            <p class="price_block_cost">$299</p>
+                            <p class="price_block_cost">$699</p>
                         </div>
                         <div class="price_block_text">Online store</div>
                         <div class="price_block_text">One of 200 adaptive designs</div>
@@ -421,7 +440,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Portal from</h4>
-                            <p class="price_block_cost">$999</p>
+                            <p class="price_block_cost">$1999</p>
                         </div>
                         <div class="price_block_text">Any type of site</div>
                         <div class="price_block_text">Unique adaptive design</div>
@@ -454,7 +473,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Start» from</h4>
-                            <p class="price_block_cost">$99</p>
+                            <p class="price_block_cost">$299</p>
                         </div>
                         <div class="price_block_text">Site analysis</div>
                         <div class="price_block_text">Monitoring the SERP</div>
@@ -484,7 +503,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Standart» from</h4>
-                            <p class="price_block_cost">$299</p>
+                            <p class="price_block_cost">$499</p>
                         </div>
                         <div class="price_block_text">Site analysis</div>
                         <div class="price_block_text">Monitoring the SERP</div>
@@ -516,7 +535,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom best_price price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Premium» from</h4>
-                            <p class="price_block_cost">$599</p>
+                            <p class="price_block_cost">$799</p>
                         </div>
                         <div class="price_block_text">Site analysis</div>
                         <div class="price_block_text">Monitoring the SERP</div>
@@ -548,7 +567,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Extra» from</h4>
-                            <p class="price_block_cost">$999</p>
+                            <p class="price_block_cost">$1199</p>
                         </div>
                         <div class="price_block_text">Site analysis</div>
                         <div class="price_block_text">Monitoring the SERP</div>
@@ -879,7 +898,7 @@
                 SEO-engineers are always ready to help you</h4>
             <div class="pr-slidesmall">
 
-                <div class="uk-width-large-1-4 uk-width-medium-1-2">
+                <!--div class="uk-width-large-1-4 uk-width-medium-1-2">
                     <div class="uk-position-relative uk-margin-large-bottom team_block">
                         <div class="uk-overflow-hidden uk-align-center uk-border-circle team_container">
                             <img class="team_image" src="images/ceo.jpg" alt="Yuri Gorgolyuk">
@@ -890,7 +909,7 @@
                                 </span>
                         </h4>
                         <div class="uk-margin-bottom team_position">Founder & CEO</div>
-                        <!-- <div class="uk-margin-bottom team_description">Lorem ipsum dolor sit amet, consectetur ducimus</div>
+                        <div class="uk-margin-bottom team_description">Lorem ipsum dolor sit amet, consectetur ducimus</div>
                         <ul class="uk-list social_list">
                             <li class="social_list_item">
                                 <a class="uk-icon-facebook social_list_item_link" href="#"></a>
@@ -904,9 +923,9 @@
                             <li class="social_list_item">
                                 <a class="uk-icon-linkedin social_list_item_link" href="#"></a>
                             </li>
-                        </ul> -->
+                        </ul>
                     </div>
-                </div>
+                </div-->
 
                 <div class="uk-width-large-1-4 uk-width-medium-1-2">
                     <div class="uk-position-relative uk-margin-large-bottom team_block">
@@ -918,7 +937,7 @@
 					<span>Viacheslav Bantysh</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Creative director & Front-End Dev</div>
+                        <div class="uk-margin-bottom team_position">General director & Front-End Dev.</div>
                     </div>
                 </div>
 
@@ -946,7 +965,7 @@
 					<span>Alina Kirilishina</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">SEO</div>
+                        <div class="uk-margin-bottom team_position">Google AdWords Manager</div>
                     </div>
                 </div>
 
@@ -960,7 +979,7 @@
 					<span>Vitaliy Ros</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">CoFounder & Web Engineer</div>
+                        <div class="uk-margin-bottom team_position">Web Engineer</div>
                     </div>
                 </div>
 
@@ -988,7 +1007,7 @@
 					<span>Mikhail Bagaev</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Front-End Dev</div>
+                        <div class="uk-margin-bottom team_position">Front-End Dev.</div>
                     </div>
                 </div>
 
@@ -1002,7 +1021,7 @@
 					<span>Vladimir Dudakov</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Back-End Dev</div>
+                        <div class="uk-margin-bottom team_position">Back-End Dev.</div>
                     </div>
                 </div>
 
@@ -1144,7 +1163,7 @@
 
 
     <!-- Address -->
-    <section class="contact address section">
+    <section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="contact address section">
         <div class="uk-container uk-container-center uk-text-center" data-uk-scrollspy="{cls:'uk-active'}">
             <h3 class="uk-h3 animated section_title address_title">Contacts</h3>
             <h4 class="uk-h4 animated uk-margin-large-bottom section_subtitle">For more information, please contact
@@ -1157,10 +1176,9 @@
                         <h4 class="address_title">Office address</h4>
                         <div class="address_text">
                             <div>
-                                <span>1-st May, 6-B,</span>
-                                <span>Chernomorsk,</span>
-                                <br>
-                                <span>Ukraine, 68000</span>
+                                <span itemprop="streetAddress">Lazurnaya, 7-A,</span>
+                                <span itemprop="addressLocality">Chernomorsk,<br> Ukraine,</span>
+                                <span itemprop="postalCode">68000</span>
                             </div>
                         </div>
                     </div>
@@ -1188,7 +1206,7 @@
                         <h4 class="address_title">E-mail</h4>
                         <div class="address_text">
                             <a href="mailto:info@xwork.site">
-                                <span>info@xwork.site </span>
+                                <span itemprop="email">info@xwork.site </span>
                             </a>
                         </div>
                     </div>
@@ -1261,7 +1279,7 @@
                             <div>
                                 <span>CB «Privatbank», Kiev,</span>
                                 <br>
-                                <span>Account 26002054350456</span>
+                                <span>Account 26002054342088</span>
                             </div>
                         </div>
                     </div>
@@ -1414,6 +1432,9 @@
             </li>
             <li class="">
                 <a data-ng-click="scrollNav($event)" class="link_contacts" href="#">CONTACTS</a>
+            </li>
+            <li class="flag">
+                <a class="link_contacts" href="index-ua.html"><img src="images/flag-ua.png" alt="Українська"></a>
             </li>
             <li class="flag">
                 <a class="link_contacts" href="index-ru.html"><img src="images/flag-ru.png" alt="Русский"></a>
