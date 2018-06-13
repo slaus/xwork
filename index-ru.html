@@ -12,9 +12,12 @@
     <title>XWork - создание и продвижение сайтов в Украине и России</title>
 
     <meta property="og:title" content="XWork - создание и продвижение сайтов в Украине и России"/>
-    <meta property="og:type" content="text/html"/>
-    <meta property="og:url" content="http://xwork.site"/>
-    <meta property="og:image" content="images/xwork.site.white.png"/>
+    <meta property="og:description" content="XWork - создание и продвижение сайтов в Украине и России. SEO оптимизация, наполнение. Тел.: +380997116815"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://xwork.site/index-ru.html"/>
+    <meta property="og:image" content="https://xwork.site/images/xwork.site.white.png"/>
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
 
     <link rel="shortcut icon" href="images/xwork.site.png">
     <link rel="apple-touch-icon" sizes="57x57" href="images/xwork.site.png">
@@ -46,8 +49,16 @@
         fbq('init', '384949058623813');
         fbq('track', 'PageView');
     </script>
-
     <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119399159-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119399159-1');
+</script>
 </head>
 
 <body data-ng-app="myPage" data-ng-controller="myPageCtrl">
@@ -66,13 +77,13 @@
 </div-->
 
 <!-- Page wrapper -->
-<div class="wrapper">
+<div itemscope itemtype="http://schema.org/Organization" class="wrapper">
 
     <!-- Header -->
     <header class="uk-small-hidden header">
         <nav class="uk-navbar header-nav">
             <div class="uk-container uk-container-center">
-                <a class="uk-navbar-brand logo_link" data-ng-click="scrollTop()" href="index.html">
+                <a class="uk-navbar-brand logo_link" data-ng-click="scrollTop()" href="index-ru.html">
                     <img class="uk-responsive-height logo" src="images/xwork.site.white.png" alt="xwork.site">
                 </a>
                 <div class="uk-navbar-flip uk-visible-large">
@@ -114,11 +125,16 @@
                             <a class="link_contacts header_nav_list_item_link"
                                href="index.html"><img src="images/flag-us.png" alt="English"></a>
                         </li>
+                        <li class="header_nav_list_item">
+                            <a class="link_contacts header_nav_list_item_link"
+                               href="index-ua.html"><img src="images/flag-ua.png" alt="Українська"></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="uk-navbar-flip uk-hidden-large header_navbar_mobile_block">
                     <div class="header_navbar_mobile flag">
                         <a class="" href="index.html"><img src="images/flag-us.png" alt="English"></a>
+                        <a class="" href="index-ua.html"><img src="images/flag-ua.png" alt="Українська"></a>
                     </div>
                     <div data-ng-click="toggleMobileNav($event)" class="uk-navbar-toggle header_navbar_mobile"></div>
                 </div>
@@ -135,10 +151,10 @@
                 <h1 class="uk-h1 container_subtitle"><img class="uk-responsive-height logo"
                                                           src="images/xwork.site.white.png" alt="xwork.site"></h1>
                 <h1 class="uk-h2 container_title">СОЗДАНИЕ И ПРОДВИЖЕНИЕ САЙТОВ</h1>
-                <h1 class="uk-h2 container_subtitle">ОТ XWORK.SITE</h1>
+                <h1 class="uk-h2 container_subtitle">ОТ <span itemprop="name">XWORK.SITE</span></h1>
                 <div class="container_description">Сложные задачи решаем сразу, невозможные немного дольше.</div>
                 <div class="container_description">
-                    <h5 class="uk-h2 container_title">+38 (099) 711 6815, +38 (098) 295 4298</h5>
+                    <h5 class="uk-h2 container_title"><span itemprop="telephone">+38(099)7116815</span>, <span itemprop="telephone">+38(098)2954298</span>, <span itemprop="telephone">+7(499)4906609</span></h5>
                 </div>
                 <!-- BUTTONS -->
                 <div class="uk-position-relative uk-margin-large-bottom uk-width-1-1 container_button">
@@ -206,6 +222,7 @@
                         ресурсов. Миллионы пользователей сети Интернет не узнают ничего о вас, если вы не выйдете за
                         рамки контактных продаж товаров и услуг. Грамотным подходом в организации дистанционной
                         продажи является разработка веб–порталов. Заявите о себе прямо сейчас!</p>
+                    <a class="uk-button uk-button-large button_custom_green uk-border-rounded uk-margin-top animated" href="files/brif.doc">Скачать Бриф на создание сайта</a>
                 </div>
             </div>
             <div class="uk-width-large-1-2 description_image" data-image="images/developer.jpg"></div>
@@ -224,6 +241,8 @@
                         в совершенстве владеем инструментами по разработке и продвижению сайтов, используя
                         суперсовременные решения и технологии. Наше преимущество — комплексный подход. Мы
                         можем себе позволить гарантировать ваш успех!</p>
+                    <a class="uk-button uk-button-large button_custom_green uk-border-rounded uk-margin-top animated"
+                       href="https://xwork.site/seo/" target="_blank">Заказать рекламу у специалиста Google</a>
                 </div>
             </div>
         </div>
@@ -346,7 +365,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Landing Page от</h4>
-                            <p class="price_block_cost">$49</p>
+                            <p class="price_block_cost">6199 руб.</p>
                         </div>
                         <div class="price_block_text">Лэндинг</div>
                         <div class="price_block_text">Стандартный дизайн для Вашего сайта</div>
@@ -370,7 +389,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Сайт-визитка от</h4>
-                            <p class="price_block_cost">$99</p>
+                            <p class="price_block_cost">12399 руб.</p>
                         </div>
                         <div class="price_block_text">Сайт на Wordpress</div>
                         <div class="price_block_text">Один из 200 адаптивных дизайнов</div>
@@ -394,7 +413,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom best_price price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Магазин от</h4>
-                            <p class="price_block_cost">$299</p>
+                            <p class="price_block_cost">24899 руб.</p>
                         </div>
                         <div class="price_block_text">Интернет-магазин</div>
                         <div class="price_block_text">Один из 200 адаптивных дизайнов</div>
@@ -418,7 +437,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">Портал от</h4>
-                            <p class="price_block_cost">$999</p>
+                            <p class="price_block_cost">62299 руб.</p>
                         </div>
                         <div class="price_block_text">Любой тип сайта</div>
                         <div class="price_block_text">Уникальный адаптивный дизайн</div>
@@ -450,7 +469,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Старт» от</h4>
-                            <p class="price_block_cost">$99</p>
+                            <p class="price_block_cost">6199 руб.</p>
                         </div>
                         <div class="price_block_text">Анализ сайта</div>
                         <div class="price_block_text">Мониторинг поисковой выдачи</div>
@@ -479,7 +498,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Стандарт» от</h4>
-                            <p class="price_block_cost">$299</p>
+                            <p class="price_block_cost">18699 руб.</p>
                         </div>
                         <div class="price_block_text">Анализ сайта</div>
                         <div class="price_block_text">Мониторинг поисковой выдачи</div>
@@ -510,7 +529,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom best_price price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Премиум» от</h4>
-                            <p class="price_block_cost">$599</p>
+                            <p class="price_block_cost">37399 руб.</p>
                         </div>
                         <div class="price_block_text">Анализ сайта</div>
                         <div class="price_block_text">Мониторинг поисковой выдачи</div>
@@ -540,7 +559,7 @@
                     <div class="uk-position-relative uk-overflow-hidden uk-margin-large-bottom price_block">
                         <div class="price_header">
                             <h4 class="uk-h4 price_block_title">«Екстра» от</h4>
-                            <p class="price_block_cost">$999</p>
+                            <p class="price_block_cost">62299 руб.</p>
                         </div>
                         <div class="price_block_text">Анализ сайта</div>
                         <div class="price_block_text">Мониторинг поисковой выдачи</div>
@@ -871,7 +890,7 @@
                 SEO-инженеры всегда готовы помочь Вам</h4>
             <div class="pr-slidesmall">
 
-                <div class="uk-width-large-1-4 uk-width-medium-1-2">
+                <!--div class="uk-width-large-1-4 uk-width-medium-1-2">
                     <div class="uk-position-relative uk-margin-large-bottom team_block">
                         <div class="uk-overflow-hidden uk-align-center uk-border-circle team_container">
                             <img class="team_image" src="images/ceo.jpg" alt="Yuri Gorgolyuk">
@@ -882,7 +901,7 @@
                                 </span>
                         </h4>
                         <div class="uk-margin-bottom team_position">Founder & CEO</div>
-                        <!-- <div class="uk-margin-bottom team_description">Lorem ipsum dolor sit amet, consectetur ducimus</div>
+                        <div class="uk-margin-bottom team_description">Lorem ipsum dolor sit amet, consectetur ducimus</div>
                         <ul class="uk-list social_list">
                             <li class="social_list_item">
                                 <a class="uk-icon-facebook social_list_item_link" href="#"></a>
@@ -896,9 +915,9 @@
                             <li class="social_list_item">
                                 <a class="uk-icon-linkedin social_list_item_link" href="#"></a>
                             </li>
-                        </ul> -->
+                        </ul>
                     </div>
-                </div>
+                </div-->
 
                 <div class="uk-width-large-1-4 uk-width-medium-1-2">
                     <div class="uk-position-relative uk-margin-large-bottom team_block">
@@ -910,7 +929,7 @@
 					<span>Viacheslav Bantysh</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Creative director & Front-End Dev</div>
+                        <div class="uk-margin-bottom team_position">General director & Front-End Dev.</div>
                     </div>
                 </div>
 
@@ -924,7 +943,7 @@
 					<span>Viacheslav Gimberuk</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Technical director & Back-End Dev</div>
+                        <div class="uk-margin-bottom team_position">Technical director & Back-End Dev.</div>
                     </div>
                 </div>
 
@@ -938,7 +957,7 @@
 					<span>Alina Kirilishina</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">SEO</div>
+                        <div class="uk-margin-bottom team_position">Google AdWords Manager</div>
                     </div>
                 </div>
 
@@ -952,7 +971,7 @@
 					<span>Vitaliy Ros</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">CoFounder & Web Engineer</div>
+                        <div class="uk-margin-bottom team_position">Web Engineer</div>
                     </div>
                 </div>
 
@@ -980,7 +999,7 @@
 					<span>Mikhail Bagaev</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Front-End Dev</div>
+                        <div class="uk-margin-bottom team_position">Front-End Dev.</div>
                     </div>
                 </div>
 
@@ -994,7 +1013,7 @@
 					<span>Vladimir Dudakov</span>
                                 </span>
                         </h4>
-                        <div class="uk-margin-bottom team_position">Back-End Dev</div>
+                        <div class="uk-margin-bottom team_position">Back-End Dev.</div>
                     </div>
                 </div>
 
@@ -1137,7 +1156,7 @@
 
 
     <!-- Address -->
-    <section class="contact address section">
+    <section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="contact address section">
         <div class="uk-container uk-container-center uk-text-center" data-uk-scrollspy="{cls:'uk-active'}">
             <h3 class="uk-h3 animated section_title address_title">Контакты</h3>
             <h4 class="uk-h4 animated uk-margin-large-bottom section_subtitle">Для получения дополнительной информации,
@@ -1150,10 +1169,9 @@
                         <h4 class="address_title">Адрес офиса</h4>
                         <div class="address_text">
                             <div>
-                                <span>1 Мая, 6-Б,</span>
-                                <span>Черноморск,</span>
-                                <br>
-                                <span>Украина, 68000</span>
+                                <span itemprop="streetAddress">Лазурная, 7-А,</span>
+                                <span itemprop="addressLocality">Черноморск, <br>Украина,</span>
+                                <span itemprop="postalCode">68000</span>
                             </div>
                         </div>
                     </div>
@@ -1181,7 +1199,7 @@
                         <h4 class="address_title">Электронная почта</h4>
                         <div class="address_text">
                             <a href="mailto:info@xwork.site">
-                                <span>info@xwork.site </span>
+                                <span itemprop="email">info@xwork.site </span>
                             </a>
                         </div>
                     </div>
@@ -1254,7 +1272,7 @@
                             <div>
                                 <span>ПАО КБ «Приватбанк», Киев,</span>
                                 <br>
-                                <span>Р/С 26002054350456</span>
+                                <span>Р/С 26002054342088</span>
                             </div>
                         </div>
                     </div>
@@ -1412,6 +1430,9 @@
             </li>
             <li class="flag">
                 <a class="link_contacts" href="index.html"><img src="images/flag-us.png" alt="English"></a>
+            </li>
+            <li class="flag">
+                <a class="link_contacts" href="index-ua.html"><img src="images/flag-ua.png" alt="Українська"></a>
             </li>
         </ul>
     </div>
